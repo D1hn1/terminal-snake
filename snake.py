@@ -11,11 +11,11 @@ widthandheightS = widthandheight.strip().rsplit(" ")
 WIDTH = int(widthandheightS[1])
 HEIGHT = int(widthandheightS[0]) - 3
 
-snake_head = "o"
-snake_body = "o"
-snake_food = "*"
-wallUD = "#"
-wallLR = "#"
+snake_head = "o" #YOU CAN CHANGE THIS
+snake_body = "o" #YOU CAN CHANGE THIS
+snake_food = "*" #YOU CAN CHANGE THIS
+wallUD = "#" #YOU CAN CHANGE THIS
+wallLR = "#" #YOU CAN CHANGE THIS
 DIRECTION = "RIGHT"
 
 CORDS = {
@@ -135,7 +135,7 @@ def updateScreen():
     drawBoard(grid)
     screen = "".join(grid)
     print(screen)
-    time.sleep(0.1)
+    time.sleep(0.1) #YOU CAN CHANGE THIS
     clear()    
 
 if __name__ == "__main__":
