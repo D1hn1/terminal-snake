@@ -1,11 +1,13 @@
 # TERMINAL SNAKE
 
-<marquee> A simple game of snake which ajusts to the size of your linux terminal. </marquee>
-
-
-#Controls
-
-- W --> UP
-- A --> LEFT
-- S --> DOWN
-- D --> RIGHT
+```html
+<legend> A simple game of snake which ajusts to the size of your linux terminal. </legend>
+```
+```html
+<ol>
+  <li>W - UP</li>
+  <li>A - LEFT</li>
+  <li>S - DOWN</li>
+  <li>D - RIGHT</li>
+</ol>
+```
